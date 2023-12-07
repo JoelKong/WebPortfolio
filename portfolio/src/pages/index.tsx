@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Introduction from "@/components/Introduction";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import { useState } from "react";
 
@@ -16,6 +17,7 @@ export default function Home(): JSX.Element {
       <Header selected={selected} setSelected={setSelected} />
       {selected.home && <Introduction />}
       {selected.skills && <Skills />}
+      {selected.projects && <Projects />}
     </>
   );
 }
