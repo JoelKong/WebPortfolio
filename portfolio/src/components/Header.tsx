@@ -20,10 +20,10 @@ export default function Header(): JSX.Element {
   }
 
   return (
-    <nav className="relative z-10 w-screen h-20 bg-green-300 flex justify-center items-center">
-      <div className="w-full md:w-3/4 flex flex-row justify-evenly font-semibold text-lg md:text-xl tracking-wider">
+    <nav className="fixed z-10 w-screen h-20 bg-green-400 flex justify-center items-center">
+      <div className="w-full md:w-3/4 flex flex-row justify-evenly font-semibold text-lg md:text-xl tracking-wider text-white">
         <button
-          className="hover:text-green-700"
+          className="hover:text-gray-200"
           name="home"
           onClick={(e) => navigate(e)}
         >
