@@ -1,13 +1,6 @@
 import { useState } from "react";
 
-export default function Header(): JSX.Element {
-  const [selected, setSelected] = useState<any>({
-    home: true,
-    skills: false,
-    projects: false,
-    contactMe: false,
-  });
-
+export default function Header({ selected, setSelected }: any): JSX.Element {
   function navigate(e: any): void {
     const navigatedPath = e.target.name;
 
@@ -29,9 +22,27 @@ export default function Header(): JSX.Element {
         >
           Home
         </button>
-        <button>Skills</button>
-        <button>Projects</button>
-        <button>Contact Me</button>
+        <button
+          className="hover:text-gray-200"
+          name="skills"
+          onClick={(e) => navigate(e)}
+        >
+          Skills
+        </button>
+        <button
+          className="hover:text-gray-200"
+          name="projects"
+          onClick={(e) => navigate(e)}
+        >
+          Projects
+        </button>
+        <button
+          className="hover:text-gray-200"
+          name="contactMe"
+          onClick={(e) => navigate(e)}
+        >
+          Contact Me
+        </button>
       </div>
     </nav>
   );
