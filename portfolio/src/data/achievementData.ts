@@ -49,6 +49,19 @@ const achievementData = [
     },
   },
   {
+    title: "Feb 2023",
+    cardTitle: "INTUItion v9.0 Hackathon 2023",
+    cardDetailedText:
+      "Participated in the Nanyang Technological University based hackathon and lead a team to produce an optimised system that allows users to store and transfer money without any hassle.",
+    media: {
+      type: "IMAGE",
+      name: "intuition",
+      source: {
+        url: "/intuition.png",
+      },
+    },
+  },
+  {
     title: "2023 - Current",
     cardTitle:
       "Singapore Institute of Technology Bachelor of Engineering with Honours in Information and Communications Technology majoring in Software Engineering, Singapore",

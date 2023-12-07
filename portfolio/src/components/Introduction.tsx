@@ -42,7 +42,7 @@ export default function Introduction(): JSX.Element {
       <div className="pt-20 h-screen w-screen bg-gradient-to-r from-green-200 to-green-300 flex md:flex-row flex-col-reverse snap-center">
         <div className="w-full md:w-1/2 h-full flex justify-center items-center">
           <div className="w-3/4 h-3/4 flex flex-col pl-4 justify-center">
-            <p className="text-5xl md:text-6xl tracking-wider leading-snug text-red-400 font-bold md:mt-0 mt-6">
+            <p className="text-5xl md:text-6xl tracking-wider leading-snug text-red-400 font-bold md:mt-0 mt-6 min-h-36">
               {text}
               <span className={showCursor ? "opacity-100" : "opacity-0"}>
                 |
