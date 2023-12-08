@@ -93,6 +93,7 @@ export default function Introduction({ achievementData }: any): JSX.Element {
               alt="joelphoto"
               height={400}
               width={400}
+              priority
             />
           </div>
         </div>
