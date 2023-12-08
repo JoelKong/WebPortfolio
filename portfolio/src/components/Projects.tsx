@@ -16,8 +16,12 @@ export default function Projects({ projectData }: any): JSX.Element {
           return (
             <div
               key={_}
-              className="w-full ml-2 mr-2 md:w-5/12 md:mr-6 mt-6 h-[35rem] pb-6 rounded-lg flex flex-col items-center bg-[#1E293B] shadow-xl hover:translate-y-2 transition-all ease-in-out"
+              className="relative w-full ml-2 mr-2 md:w-5/12 md:mr-6 mt-6 h-[35rem] pb-6 rounded-lg flex flex-col items-center bg-[#1E293B] shadow-xl hover:translate-y-2 transition-all ease-in-out"
             >
+              <span className="flex absolute h-5 w-5 top-0 right-0 -mt-1 -mr-1">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-fuchsia-400 opacity-85"></span>
+                <span className="relative inline-flex rounded-full h-5 w-5 bg-purple-500"></span>
+              </span>
               <div className="mt-2 w-11/12 md:w-full flex justify-center items-center overflow-hidden">
                 <Image
                   src={project.image}
@@ -48,14 +52,14 @@ export default function Projects({ projectData }: any): JSX.Element {
                 {project.link && (
                   <Link
                     href={`${project.link}`}
-                    className="pl-6 pr-6 pt-4 pb-4 rounded-lg bg-green-500 text-white hover:opacity-90 text-md tracking-widest shadow-lg"
+                    className="pl-6 pr-6 pt-4 pb-4 rounded-lg bg-green-500 text-white hover:bg-green-600 text-md tracking-widest shadow-lg"
                     target="_blank"
                   >
                     Link to Website
                   </Link>
                 )}
                 <Link
-                  className="pl-6 pr-6 pt-4 pb-4 rounded-lg bg-gray-600 text-white hover:opacity-90 text-md flex flex-row justify-center items-center shadow-lg"
+                  className="pl-6 pr-6 pt-4 pb-4 rounded-lg bg-gray-600 text-white hover:bg-gray-700 text-md flex flex-row justify-center items-center shadow-lg"
                   href={`${project.github}`}
                   target="_blank"
                 >

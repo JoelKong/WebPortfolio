@@ -137,7 +137,7 @@ export default function ContactMe(): JSX.Element {
               disabled={loading}
               type="submit"
               onSubmit={(e) => handleSubmit(e)}
-              className="w-11/12 h-12 bg-blue-300 rounded-lg hover:bg-blue-400 disabled:cursor-not-allowed flex justify-center items-center"
+              className="w-11/12 h-12 bg-blue-300 rounded-lg hover:bg-blue-400 disabled:cursor-not-allowed flex justify-center items-center disabled:animate-pulse"
             >
               {loading ? (
                 <svg
