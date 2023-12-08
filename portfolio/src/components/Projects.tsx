@@ -28,6 +28,7 @@ export default function Projects({ projectData }: any): JSX.Element {
                   alt={project.title}
                   width={450}
                   height={300}
+                  priority
                 />
               </div>
               <div className="w-11/12 flex flex-row justify-evenly items-center">

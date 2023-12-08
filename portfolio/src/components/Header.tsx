@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 export default function Header({ selected, setSelected }: any): JSX.Element {
   function navigate(e: any): void {
     const navigatedPath = e.target.name;
