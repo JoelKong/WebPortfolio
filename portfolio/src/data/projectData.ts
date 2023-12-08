@@ -13,7 +13,7 @@ const projectData: any = [
     skills: ["NextJS", "Arduino", "TinyCircuit", "Supabase"],
     title: "Vitatrax",
     description:
-      "A tiny circuit fitness tracker with many different functionalities such as a in built pong game, step tracker and many more.",
+      "A tiny circuit fitness tracker with many different functionalities such as an in-built pong game, step tracker and many more.",
     github: "https://github.com/JoelKong/Vitatrax",
     link: "https://vitatrax.vercel.app/",
   },
