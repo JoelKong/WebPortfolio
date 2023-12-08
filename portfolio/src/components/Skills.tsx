@@ -1,13 +1,14 @@
 import skillData from "@/data/skillData";
 import Image from "next/image";
+import Footer from "./Footer";
 
 export default function Skills(): JSX.Element {
   return (
-    <section className="pt-28 w-full h-full flex flex-col items-center bg-gradient-to-r from-green-200 to-green-300">
-      <span className="text-3xl text-gray-500 font-bold tracking-wide">
+    <section className="pt-28 w-full h-full flex flex-col items-center bg-[#0D1117]">
+      <span className="text-3xl text-[#01f53ec7] font-bold tracking-wide">
         Skills
       </span>
-      <p className="text-lg md:text-xl text-center pt-4 text-gray-500 font-bold tracking-wide">
+      <p className="text-lg md:text-xl text-center pt-4 text-[#01f53ec7] font-bold tracking-wide">
         Programming languages and skills that I have worked with
       </p>
       <div className="w-full md:w-3/4 mt-6 pb-10 flex flex-row flex-wrap justify-center items-center">
@@ -30,6 +31,7 @@ export default function Skills(): JSX.Element {
           );
         })}
       </div>
+      <Footer />
     </section>
   );
 }

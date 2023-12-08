@@ -1,3 +1,4 @@
+import ContactMe from "@/components/ContactMe";
 import Header from "@/components/Header";
 import Introduction from "@/components/Introduction";
 import Projects from "@/components/Projects";
@@ -18,6 +19,7 @@ export default function Home(): JSX.Element {
       {selected.home && <Introduction />}
       {selected.skills && <Skills />}
       {selected.projects && <Projects />}
+      {selected.contactMe && <ContactMe />}
     </>
   );
 }

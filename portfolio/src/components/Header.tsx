@@ -13,31 +13,31 @@ export default function Header({ selected, setSelected }: any): JSX.Element {
   }
 
   return (
-    <nav className="fixed z-10 w-screen h-20 bg-green-400 flex justify-center items-center">
+    <nav className="fixed z-10 w-screen h-16 bg-green-700 flex justify-center items-center">
       <div className="w-full md:w-3/4 flex flex-row justify-evenly font-semibold text-lg md:text-xl tracking-wider text-white">
         <button
-          className="hover:text-gray-200"
+          className="hover:text-gray-400"
           name="home"
           onClick={(e) => navigate(e)}
         >
           Home
         </button>
         <button
-          className="hover:text-gray-200"
+          className="hover:text-gray-400"
           name="skills"
           onClick={(e) => navigate(e)}
         >
           Skills
         </button>
         <button
-          className="hover:text-gray-200"
+          className="hover:text-gray-400"
           name="projects"
           onClick={(e) => navigate(e)}
         >
           Projects
         </button>
         <button
-          className="hover:text-gray-200"
+          className="hover:text-gray-400"
           name="contactMe"
           onClick={(e) => navigate(e)}
         >

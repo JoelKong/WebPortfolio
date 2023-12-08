@@ -1,7 +1,7 @@
 const projectData: any = [
   {
     image: "/sgunidorms.png",
-    skills: ["NextJS", "Firebase", "NodeJS"],
+    skills: ["NextJS", "Firebase", "TailwindCSS", "NodeJS"],
     title: "SgUniDorms",
     description:
       "A platform where users can rate and review Singapore's univerisity dormitories.",
@@ -13,8 +13,9 @@ const projectData: any = [
     skills: ["NextJS", "Arduino", "TinyCircuit", "Supabase"],
     title: "Vitatrax",
     description:
-      "A tiny circuit fitness tracker with many different functionalities",
+      "A tiny circuit fitness tracker with many different functionalities such as a in built pong game, step tracker and many more.",
     github: "https://github.com/JoelKong/Vitatrax",
+    link: "https://vitatrax.vercel.app/",
   },
   {
     image: "/subiscrape.png",
@@ -38,7 +39,7 @@ const projectData: any = [
     skills: ["MongoDB", "ReactJS", "NodeJS", "JWT"],
     title: "Secured OAuth Form",
     description:
-      "My beginner project in attempting to manually create a secure authentication and authorization form",
+      "My beginner project in attempting to manually create a secure authentication and authorization form.",
     github: "https://github.com/JoelKong/OAuth-Form",
   },
 ];
