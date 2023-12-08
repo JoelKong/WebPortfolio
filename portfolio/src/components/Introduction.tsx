@@ -5,7 +5,7 @@ import Achievements from "./Achievements";
 import Footer from "@/components/Footer";
 import Github from "@/utils/Github";
 
-export default function Introduction(): JSX.Element {
+export default function Introduction({ achievementData }: any): JSX.Element {
   const [text, setText] = useState("");
   const [showCursor, setShowCursor] = useState(true);
 
@@ -74,6 +74,14 @@ export default function Introduction(): JSX.Element {
                   height={40}
                 />
               </Link>
+              <a
+                className="bg-[#01F53F] font-bold text-md pl-4 pr-4 pt-1 pb-1 rounded-lg hover:bg-green-500"
+                href="./JoelKongBoonWei_Resume.pdf"
+                download
+                target="_blank"
+              >
+                View CV
+              </a>
             </div>
           </div>
         </div>
@@ -89,7 +97,7 @@ export default function Introduction(): JSX.Element {
           </div>
         </div>
       </div>
-      <Achievements />
+      <Achievements achievementData={achievementData} />
       <Footer />
     </main>
   );

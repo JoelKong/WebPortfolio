@@ -20,9 +20,9 @@ const achievementData = [
     title: "08/2020 - 01/2021",
     cardTitle: "HSBC Bank Data Analyst Intern, Singapore",
     cardDetailedText: [
-      "Developed Excel macros to automate repetitive tasks, improving efficiency overall for the company",
-      "Managed client policies using the AS400 IBM system",
-      "Processed and organized data from the AS400 IBM system into Excel",
+      "Developed Excel macros to automate repetitive tasks, improving overall efficiency for the company.",
+      "Managed client policies using the AS400 IBM system.",
+      "Processed and organized data from the AS400 IBM system into Excel.",
       "Collaborated with senior employees to design and push out insurance policy forms.",
     ],
     media: {
@@ -67,8 +67,8 @@ const achievementData = [
       "Singapore Institute of Technology Bachelor of Engineering with Honours in Information and Communications Technology majoring in Software Engineering, Singapore",
     cardDetailedText: [
       "Currently a year 1 undergraduate in the Singapore Institute of Technology, and also a student assistant developer for SPICE projects.",
-      "Received a certification for 'Google IT Automation with Python Specialization'",
-      "Received a certification for 'Google Project Management'",
+      "Received a certification for 'Google IT Automation with Python Specialization.'",
+      "Received a certification for 'Google Project Management.'",
     ],
     media: {
       type: "IMAGE",

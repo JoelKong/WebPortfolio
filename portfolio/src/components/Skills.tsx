@@ -1,8 +1,7 @@
-import skillData from "@/data/skillData";
 import Image from "next/image";
 import Footer from "./Footer";
 
-export default function Skills(): JSX.Element {
+export default function Skills({ skillData }: any): JSX.Element {
   return (
     <section className="pt-28 w-full h-full flex flex-col items-center bg-[#0D1117]">
       <span className="text-3xl text-[#01f53ec7] font-bold tracking-wide">

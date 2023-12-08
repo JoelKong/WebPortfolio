@@ -1,9 +1,8 @@
-import projectData from "@/data/projectData";
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "./Footer";
 
-export default function Projects(): JSX.Element {
+export default function Projects({ projectData }: any): JSX.Element {
   return (
     <section className="pt-28 w-screen h-full flex flex-col items-center bg-[#0D1117]">
       <span className="text-3xl text-[#01F53F] font-bold tracking-wide">

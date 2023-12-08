@@ -1,7 +1,6 @@
 import { Chrono } from "react-chrono";
-import achievementData from "@/data/achievementData";
 
-export default function Achievements(): JSX.Element {
+export default function Achievements({ achievementData }: any): JSX.Element {
   return (
     <section className="w-screen h-screen md:h-[50vw] flex justify-center snap-start bg-[#0D1117]">
       <div className="w-10/12 h-full pt-14">
