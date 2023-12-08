@@ -43,14 +43,14 @@ export default function Introduction({ achievementData }: any): JSX.Element {
     <main className="max-h-screen overflow-y-scroll overflow-x-hidden snap-y snap-mandatory">
       <div className="pt-20 h-screen w-screen bg-[#0D1117] flex md:flex-row flex-col-reverse snap-center">
         <div className="w-full md:w-1/2 h-full flex justify-center items-center">
-          <div className="w-3/4 h-3/4 flex flex-col pl-4 justify-center">
+          <div className="w-11/12 md:w-3/4 h-3/4 flex flex-col pl-4 justify-center">
             <p className="text-5xl md:text-6xl tracking-wider leading-snug text-[#01F53F] font-bold md:mt-0 mt-6 min-h-36">
               {text}
               <span className={showCursor ? "opacity-100" : "opacity-0"}>
                 |
               </span>
             </p>
-            <p className="mt-8 md:mt-10 text-xl font-semibold tracking-wide text-gray-400">
+            <p className="mt-6 md:mt-10 text-xl font-semibold tracking-wide text-gray-400">
               Aspiring Software Engineer with a drive to make a difference
               through technology and make the world a better place
             </p>
