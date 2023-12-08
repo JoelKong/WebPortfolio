@@ -9,7 +9,7 @@ const projectData: any = [
     link: "https://www.sgunidorms.com/",
   },
   {
-    image: "/vitatrax.png",
+    image: "/vitatraxx.PNG",
     skills: ["NextJS", "Arduino", "TinyCircuit", "Supabase"],
     title: "Vitatrax",
     description:
