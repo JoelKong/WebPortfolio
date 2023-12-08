@@ -43,7 +43,7 @@ export default function Introduction({ achievementData }: any): JSX.Element {
     <main className="max-h-screen overflow-y-scroll overflow-x-hidden snap-y snap-mandatory">
       <div className="pt-20 h-screen w-screen bg-[#0D1117] flex md:flex-row flex-col-reverse snap-center">
         <div className="w-full md:w-1/2 h-full flex justify-center items-center">
-          <div className="w-11/12 md:w-3/4 h-3/4 flex flex-col pl-4 justify-center">
+          <div className="w-11/12 md:w-3/4 h-full flex flex-col pl-4">
             <p className="text-5xl md:text-6xl tracking-wider leading-snug text-[#01F53F] font-bold md:mt-0 mt-6 min-h-36">
               {text}
               <span className={showCursor ? "opacity-100" : "opacity-0"}>
@@ -85,7 +85,7 @@ export default function Introduction({ achievementData }: any): JSX.Element {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-1/2 md:mt-0 mt-14 flex justify-center items-center">
+        <div className="w-full md:w-1/2 mt-2 md:mt-0 flex justify-center items-center">
           <div className="w-60 h-60 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-[50%] overflow-hidden">
             <Image
               className="w-full h-full object-cover"
