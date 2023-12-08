@@ -22,6 +22,7 @@ export default function Skills({ skillData }: any): JSX.Element {
                 alt={skills.name}
                 width={80}
                 height={80}
+                priority
               />
               <span className="pt-4 font-semibold text-xl tracking-wide">
                 {skills.name}
