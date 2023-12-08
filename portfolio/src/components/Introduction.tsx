@@ -50,7 +50,7 @@ export default function Introduction({ achievementData }: any): JSX.Element {
                 |
               </span>
             </p>
-            <p className="mt-6 md:mt-10 text-xl font-semibold tracking-wide text-gray-400">
+            <p className="mt-6 md:mt-10 text-md md:text-xl font-semibold tracking-wide text-gray-400">
               Aspiring Software Engineer with a drive to make a difference
               through technology and make the world a better place
             </p>
@@ -85,7 +85,7 @@ export default function Introduction({ achievementData }: any): JSX.Element {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-1/2 md:mt-0 mt-14 h-full flex justify-center items-center">
+        <div className="w-full md:w-1/2 md:mt-0 mt-14 flex justify-center items-center">
           <div className="w-60 h-60 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-[50%] overflow-hidden">
             <Image
               className="w-full h-full object-cover"
