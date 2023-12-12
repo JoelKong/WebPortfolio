@@ -19,23 +19,20 @@ export default function Introduction({ achievementData }: any): JSX.Element {
         setText(introText.substring(0, index));
         index++;
         setTimeout(typingEffect, 40);
-      } else {
-        cursorInterval = setInterval(() => {
-          setShowCursor((prev) => !prev);
-        }, 500);
       }
     };
 
     typingEffect();
 
     const intervalTimeout = setTimeout(() => {
-      clearInterval(cursorInterval);
-      setShowCursor(false);
-    }, 2000);
+      cursorInterval = setInterval(() => {
+        setShowCursor((prev) => !prev);
+      }, 500);
+    }, 40 * introText.length);
 
     return () => {
-      clearTimeout(intervalTimeout);
       clearInterval(cursorInterval);
+      clearTimeout(intervalTimeout);
     };
   }, []);
 
