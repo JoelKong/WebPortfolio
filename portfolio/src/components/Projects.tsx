@@ -43,7 +43,7 @@ export default function Projects({ projectData }: any): JSX.Element {
                   );
                 })}
               </div>
-              <p className="mt-6 font-bold tracking-wide text-2xl text-white underline">
+              <p className="mt-6 font-bold tracking-wide text-2xl text-white underline text-center">
                 {project.title}
               </p>
               <p className="pt-2 pl-2 pr-2 text-center tracking-widest text-lg text-white mb-12">
