@@ -24,7 +24,7 @@ export default function Skills({ skillData }: any): JSX.Element {
                 height={80}
                 priority
               />
-              <span className="pt-4 font-semibold text-xl tracking-wide">
+              <span className="pt-6 font-semibold text-xl tracking-wide">
                 {skills.name}
               </span>
             </div>
