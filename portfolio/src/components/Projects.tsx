@@ -5,10 +5,10 @@ import Footer from "./Footer";
 export default function Projects({ projectData }: any): JSX.Element {
   return (
     <section className="pt-28 w-screen h-full flex flex-col items-center bg-[#0D1117]">
-      <span className="text-3xl text-[#01F53F] font-bold tracking-wide">
+      <span className="text-2xl md:text-3xl text-[#01F53F] font-bold tracking-wide">
         Open Source Projects
       </span>
-      <p className="text-lg md:text-xl text-center pt-4 text-[#01F53F] font-bold tracking-wide pl-2 pr-2">
+      <p className="text-lg md:text-xl text-center pt-4 text-[#01F53F] font-bold tracking-wide pl-4 pr-4">
         My personal Open Source Projects. Click to check them out!
       </p>
       <div className="w-full mt-6 pb-10 flex flex-row flex-wrap justify-center items-center">
@@ -49,18 +49,18 @@ export default function Projects({ projectData }: any): JSX.Element {
               <p className="pt-2 pl-2 pr-2 text-center tracking-widest text-lg text-white mb-12">
                 {project.description}
               </p>
-              <div className="flex flex-row justify-evenly items-center w-full tracking-widest mt-auto">
+              <div className="flex flex-row justify-evenly items-center w-11/12 tracking-widest mt-auto text-center">
                 {project.link && (
                   <Link
                     href={`${project.link}`}
-                    className="pl-4 pr-4 md:pr-6 md:pl-6 pt-4 pb-4 rounded-lg bg-green-500 text-white hover:bg-green-600 text-md tracking-widest shadow-lg"
+                    className="pl-4 pr-4 md:pr-6 md:pl-6 pt-4 pb-4 rounded-lg bg-green-500 text-white hover:bg-green-600 text-xs md:text-lg tracking-widest shadow-lg mr-4 h-full flex justify-center items-center"
                     target="_blank"
                   >
                     Link to Website
                   </Link>
                 )}
                 <Link
-                  className="pl-6 pr-6 pt-4 pb-4 rounded-lg bg-gray-600 text-white hover:bg-gray-700 text-md flex flex-row justify-center items-center shadow-lg"
+                  className="pl-6 pr-6 pt-4 pb-4 rounded-lg bg-gray-600 text-white hover:bg-gray-700 text-xs md:text-lg flex flex-row justify-center items-center shadow-lg"
                   href={`${project.github}`}
                   target="_blank"
                 >
