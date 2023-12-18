@@ -8,7 +8,7 @@ export default function Projects({ projectData }: any): JSX.Element {
       <span className="text-3xl text-[#01F53F] font-bold tracking-wide">
         Open Source Projects
       </span>
-      <p className="text-lg md:text-xl text-center pt-4 text-[#01F53F] font-bold tracking-wide">
+      <p className="text-lg md:text-xl text-center pt-4 text-[#01F53F] font-bold tracking-wide pl-2 pr-2">
         My personal Open Source Projects. Click to check them out!
       </p>
       <div className="w-full mt-6 pb-10 flex flex-row flex-wrap justify-center items-center">
@@ -31,12 +31,12 @@ export default function Projects({ projectData }: any): JSX.Element {
                   priority
                 />
               </div>
-              <div className="w-11/12 flex flex-row justify-evenly items-center">
+              <div className="w-11/12 flex flex-row justify-evenly items-center flex-wrap">
                 {project.skills.map((skill: any, _: any) => {
                   return (
                     <div
                       key={_}
-                      className="mt-6 rounded-lg border-2 md:pl-4 md:pr-4 pl-2 pr-2 pt-1 pb-1 bg-green-500 text-white font-semibold"
+                      className="mt-6 mr-2 rounded-lg border-2 md:pl-4 md:pr-4 pl-2 pr-2 pt-1 pb-1 bg-green-500 text-white font-semibold"
                     >
                       {skill}
                     </div>
@@ -46,14 +46,14 @@ export default function Projects({ projectData }: any): JSX.Element {
               <p className="mt-6 font-bold tracking-wide text-2xl text-white">
                 {project.title}
               </p>
-              <p className="pt-2 pl-2 pr-2 text-center tracking-widest text-lg text-white">
+              <p className="pt-2 pl-2 pr-2 text-center tracking-widest text-lg text-white mb-12">
                 {project.description}
               </p>
-              <div className="flex flex-row justify-evenly items-center mt-12 w-full tracking-widest">
+              <div className="flex flex-row justify-evenly items-center w-full tracking-widest mt-auto">
                 {project.link && (
                   <Link
                     href={`${project.link}`}
-                    className="pl-6 pr-6 pt-4 pb-4 rounded-lg bg-green-500 text-white hover:bg-green-600 text-md tracking-widest shadow-lg"
+                    className="pl-4 pr-4 md:pr-6 md:pl-6 pt-4 pb-4 rounded-lg bg-green-500 text-white hover:bg-green-600 text-md tracking-widest shadow-lg"
                     target="_blank"
                   >
                     Link to Website

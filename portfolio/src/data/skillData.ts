@@ -55,6 +55,16 @@ const skillData: any = [
   },
   {
     image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
+    name: "ExpressJS",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
+    name: "Nginx",
+  },
+  {
+    image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     name: "HTML",
   },

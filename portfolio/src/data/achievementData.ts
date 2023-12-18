@@ -35,7 +35,7 @@ const achievementData = [
   },
   {
     title: "2022 - 2023",
-    cardTitle: "CS50, Udemy",
+    cardTitle: "Udemy",
     cardDetailedText: [
       "Enrolled into the CS50 Course and learnt the fundamentals of programming and data structures and algorithms.",
       "Took up 'The Web Developer Bootcamp' by Colt Steele and 'DevOps Beginners to Advanced with Projects' by Imran Teli.",
@@ -52,7 +52,7 @@ const achievementData = [
     title: "Feb 2023",
     cardTitle: "INTUItion v9.0 Hackathon 2023",
     cardDetailedText:
-      "Participated in the Nanyang Technological University based hackathon and lead a team to produce an optimised system that allows users to store and transfer money without any hassle.",
+      "Participated in the Nanyang Technological University based hackathon and chose the Tiktok track to lead a team to produce an optimised system that allows users to store and transfer money without any hassle.",
     media: {
       type: "IMAGE",
       name: "intuition",

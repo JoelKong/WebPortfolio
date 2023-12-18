@@ -9,6 +9,23 @@ const projectData: any = [
     link: "https://www.sgunidorms.com/",
   },
   {
+    image: "/livechat.PNG",
+    skills: [
+      "NextJS",
+      "Websocket",
+      "ExpressJS",
+      "NodeJS",
+      "Supabase",
+      "Docker",
+      "Nginx",
+      "Jenkins",
+    ],
+    title: "Live Chat",
+    description:
+      "A live chat that makes use of devops technology and websocket.",
+    github: "https://github.com/JoelKong/LiveChat",
+  },
+  {
     image: "/vitatraxx.PNG",
     skills: ["NextJS", "Arduino", "TinyCircuit", "Supabase"],
     title: "Vitatrax",
@@ -39,8 +56,16 @@ const projectData: any = [
     skills: ["MongoDB", "ReactJS", "NodeJS", "JWT"],
     title: "Secured OAuth Form",
     description:
-      "My beginner project in attempting to manually create a secure authentication and authorization form.",
+      "My beginner project in attempting to manually create a secure authentication and authorization form using JWT tokens.",
     github: "https://github.com/JoelKong/OAuth-Form",
+  },
+  {
+    image: "/streakx.png",
+    skills: ["ReactJS", "ExpressJS", "MongoDB", "NodeJS"],
+    title: "StreakX",
+    description:
+      "My very first project: An easy to use habit tracker which promotes the following of healthy habits.",
+    github: "hhttps://github.com/JoelKong/StreakX",
   },
 ];
 

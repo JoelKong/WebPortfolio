@@ -82,7 +82,7 @@ export default function ContactMe(): JSX.Element {
         <span className="text-3xl text-[#01F53F] font-bold tracking-wide">
           Contact Me
         </span>
-        <p className="text-lg md:text-xl text-center pt-4 text-[#01F53F] font-bold tracking-wide">
+        <p className="text-lg md:text-xl text-center pt-4 text-[#01F53F] font-bold tracking-wide pl-2 pr-2">
           Drop me an email and I will get back to you!
         </p>
         <form

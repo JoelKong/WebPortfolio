@@ -7,7 +7,7 @@ export default function Skills({ skillData }: any): JSX.Element {
       <span className="text-3xl text-[#01F53F] font-bold tracking-wide">
         Skills
       </span>
-      <p className="text-lg md:text-xl text-center pt-4 text-[#01F53F] font-bold tracking-wide">
+      <p className="text-lg md:text-xl text-center pt-4 text-[#01F53F] font-bold tracking-wide pl-2 pr-2">
         Programming languages and skills that I have worked with
       </p>
       <div className="w-full md:w-3/4 mt-6 pb-10 flex flex-row flex-wrap justify-center items-center">
