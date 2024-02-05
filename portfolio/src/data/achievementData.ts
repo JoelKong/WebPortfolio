@@ -69,6 +69,7 @@ const achievementData = [
       "Currently a year 1 undergraduate in the Singapore Institute of Technology, and also a student assistant developer for SPICE projects.",
       "Received a certification for 'Google IT Automation with Python Specialization.'",
       "Received a certification for 'Google Project Management.'",
+      "Student Helper Software Engineer assisting to develop a live soft shell crab farming system for Aquast.",
     ],
     media: {
       type: "IMAGE",
