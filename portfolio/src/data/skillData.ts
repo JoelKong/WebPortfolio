@@ -16,6 +16,11 @@ const skillData: any = [
   },
   {
     image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+    name: "Java",
+  },
+  {
+    image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     name: "ReactJS",
   },
@@ -50,7 +55,7 @@ const skillData: any = [
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     name: "TailwindCSS",
   },
   {

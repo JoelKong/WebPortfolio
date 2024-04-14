@@ -26,6 +26,22 @@ const projectData: any = [
     github: "https://github.com/JoelKong/LiveChat",
   },
   {
+    image: "/subiscrape.png",
+    skills: ["NextJS", "OpenAI", "NodeJS", "MUI"],
+    title: "Subiscrape",
+    description:
+      "A web scraping application which summarizes scraped information using AI technology.",
+    github: "https://github.com/JoelKong/SubiScrape",
+    link: "https://subiscrape-git-main-joelkong.vercel.app/",
+  },
+  {
+    image: "/nutrisprint.png",
+    skills: ["Java", "OOP", "LibGDX"],
+    title: "Nutrisprint-OOP",
+    description: "A game focusing heavily on object oriented principles.",
+    github: "https://github.com/JoelKong/NutriSprint-OOP",
+  },
+  {
     image: "/vitatraxx.PNG",
     skills: ["NextJS", "Arduino", "TinyCircuit", "Supabase"],
     title: "Vitatrax",
@@ -33,15 +49,6 @@ const projectData: any = [
       "A tiny circuit fitness tracker with many different functionalities such as an in-built pong game, step tracker and many more.",
     github: "https://github.com/JoelKong/Vitatrax",
     link: "https://vitatrax.vercel.app/",
-  },
-  {
-    image: "/subiscrape.png",
-    skills: ["NextJS", "OpenAI", "NodeJS", "MUI"],
-    title: "Subiscrape",
-    description:
-      "A web scraping application which summarizes scraped information using AI technology.",
-    github: "https://github.com/JoelKong/SubiScrape",
-    link: "https://www.subiscrape.com/",
   },
   {
     image: "/subiregex.png",

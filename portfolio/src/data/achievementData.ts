@@ -20,10 +20,10 @@ const achievementData = [
     title: "08/2020 - 01/2021",
     cardTitle: "HSBC Bank Data Analyst Intern, Singapore",
     cardDetailedText: [
-      "Developed Excel macros to automate repetitive tasks, improving overall efficiency for the company.",
+      "Worked alongside the policy servicing team to create and distribute insurance policy forms, contributing to product innovation and client satisfaction.",
       "Managed client policies using the AS400 IBM system.",
-      "Processed and organized data from the AS400 IBM system into Excel.",
-      "Collaborated with senior employees to design and push out insurance policy forms.",
+      "Automated BAU routine processes with Excel macros, significantly boosting company efficiency and reducing manual workload.",
+      "Streamlined data processing by transferring information from the AS400 IBM system to Excel, enhancing data organization and accessibility.",
     ],
     media: {
       type: "IMAGE",
@@ -51,8 +51,9 @@ const achievementData = [
   {
     title: "Feb 2023",
     cardTitle: "INTUItion v9.0 Hackathon 2023",
-    cardDetailedText:
+    cardDetailedText: [
       "Participated in the Nanyang Technological University based hackathon and chose the Tiktok track to lead a team to produce an optimised system that allows users to store and transfer money without any hassle.",
+    ],
     media: {
       type: "IMAGE",
       name: "intuition",
@@ -66,7 +67,7 @@ const achievementData = [
     cardTitle:
       "Singapore Institute of Technology Bachelor of Engineering with Honours in Information and Communications Technology majoring in Software Engineering, Singapore",
     cardDetailedText: [
-      "Currently a year 1 undergraduate in the Singapore Institute of Technology, and also a student assistant developer for SPICE projects.",
+      "Currently a sophomore in the Singapore Institute of Technology, and also a student assistant developer for SPICE projects.",
       "Received a certification for 'Google IT Automation with Python Specialization.'",
       "Received a certification for 'Google Project Management.'",
       "Student Helper Software Engineer assisting to develop a live soft shell crab farming system for Aquast.",

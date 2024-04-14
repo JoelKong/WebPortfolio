@@ -11,7 +11,7 @@ export default function Header({ selected, setSelected }: any): JSX.Element {
   }
 
   return (
-    <nav className="fixed z-10 w-screen h-16 bg-green-700 flex justify-center items-center">
+    <nav className="fixed z-10 w-screen h-16 bg-green-600 flex justify-center items-center">
       <div className="w-full md:w-3/4 flex flex-row justify-evenly font-semibold text-md md:text-xl tracking-wider text-white">
         <button
           className="hover:text-gray-300"
