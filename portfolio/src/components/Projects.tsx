@@ -21,7 +21,7 @@ export default function Projects({ projectData }: any): JSX.Element {
   }
 
   return (
-    <section className="pt-28 w-screen h-full flex flex-col items-center bg-[#0D1117]">
+    <section className="pt-28 w-screen min-h-screen flex flex-col items-center bg-[#0D1117]">
       <span className="text-2xl md:text-3xl text-[#01F53F] font-bold tracking-wide">
         Open Source Projects
       </span>
