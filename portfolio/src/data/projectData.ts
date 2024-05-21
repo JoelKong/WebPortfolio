@@ -22,7 +22,7 @@ const projectData: any = [
     ],
     title: "Live Chat",
     description:
-      "A live chat that makes use of devops technology and websocket.",
+      "A realtime chat that is integrated with CICD and Devops concepts for learning purposes.",
     github: "https://github.com/JoelKong/LiveChat",
   },
   {
@@ -40,6 +40,22 @@ const projectData: any = [
     title: "Nutrisprint-OOP",
     description: "A game focusing heavily on object oriented principles.",
     github: "https://github.com/JoelKong/NutriSprint-OOP",
+  },
+  {
+    image: "/springboot.png",
+    skills: ["Springboot", "Spring Data JPA", "PostgreSQL"],
+    title: "Springboot",
+    description:
+      "A springboot crud backend with Spring Data JPA and postgres integration",
+    github: "https://github.com/JoelKong/SpringBoot",
+  },
+  {
+    image: "/railsblog.png",
+    skills: ["Ruby on Rails", "React", "SqlLite3", "MVC"],
+    title: "Rails Blog",
+    description:
+      "A simple blog to practice on Ruby on Rails and delve into the MVC architecture.",
+    github: "https://github.com/JoelKong/RailsBlog",
   },
   {
     image: "/vitatraxx.PNG",

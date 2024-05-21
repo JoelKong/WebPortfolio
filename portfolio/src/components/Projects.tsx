@@ -1,8 +1,25 @@
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "./Footer";
+import { useState } from "react";
 
 export default function Projects({ projectData }: any): JSX.Element {
+  const [currentPage, setCurrentPage] = useState<number>(1);
+
+  const projectsPerPage = 4;
+  const indexOfLastProject = currentPage * projectsPerPage;
+  const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+  const currentProjects = projectData.slice(
+    indexOfFirstProject,
+    indexOfLastProject
+  );
+  const totalPages = Math.ceil(projectData.length / projectsPerPage);
+
+  // Handle pagination
+  function handlePageChange(pageNumber: number) {
+    setCurrentPage(pageNumber);
+  }
+
   return (
     <section className="pt-28 w-screen h-full flex flex-col items-center bg-[#0D1117]">
       <span className="text-2xl md:text-3xl text-[#01F53F] font-bold tracking-wide">
@@ -11,8 +28,23 @@ export default function Projects({ projectData }: any): JSX.Element {
       <p className="text-lg md:text-xl text-center pt-4 text-[#01F53F] font-bold tracking-wide pl-4 pr-4">
         My personal Open Source Projects. Click to check them out!
       </p>
-      <div className="w-full mt-6 pb-10 flex flex-row flex-wrap justify-center items-center">
-        {projectData.map((project: any, _: any): JSX.Element => {
+      <div className="flex justify-center mt-6">
+        {Array.from({ length: totalPages }, (_, index) => (
+          <button
+            key={index}
+            onClick={() => handlePageChange(index + 1)}
+            className={`mx-2 px-4 py-2 rounded ${
+              currentPage === index + 1
+                ? "bg-green-500 text-white"
+                : "bg-gray-200 text-black hover:bg-gray-300"
+            }`}
+          >
+            {index + 1}
+          </button>
+        ))}
+      </div>
+      <div className="w-full mt-2 pb-10 flex flex-row flex-wrap justify-center items-center">
+        {currentProjects.map((project: any, _: any): JSX.Element => {
           return (
             <div
               key={_}

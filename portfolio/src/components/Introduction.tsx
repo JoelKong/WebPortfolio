@@ -48,8 +48,8 @@ export default function Introduction({ achievementData }: any): JSX.Element {
               </span>
             </p>
             <p className="mt-6 md:mt-10 text-md md:text-xl font-semibold tracking-wide text-gray-400">
-              Aspiring Software Engineer with a drive to make a difference
-              through technology and make the world a better place
+              Aspiring Full-stack Software Engineer with a drive to make a
+              difference through technology and make the world a better place
             </p>
             <div className="mt-8 md:mb-0 mb-10 text-xl font-semibold tracking-wide flex flex-row w-full">
               <Link

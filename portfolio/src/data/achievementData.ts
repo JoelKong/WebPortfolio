@@ -67,10 +67,11 @@ const achievementData = [
     cardTitle:
       "Singapore Institute of Technology Bachelor of Engineering with Honours in Information and Communications Technology majoring in Software Engineering, Singapore",
     cardDetailedText: [
-      "Currently a sophomore in the Singapore Institute of Technology, and also a student assistant developer for SPICE projects.",
+      "Currently a undergraduate in the Singapore Institute of Technology",
       "Received a certification for 'Google IT Automation with Python Specialization.'",
       "Received a certification for 'Google Project Management.'",
-      "Student Helper Software Engineer assisting to develop a live soft shell crab farming system for Aquast.",
+      "Student Helper Software Engineer and assisted to develop a live soft shell crab farming system for Aquast as a SPICE project.",
+      "Currently studying in preparation for the AWS Certified Developer - Associate exam",
     ],
     media: {
       type: "IMAGE",

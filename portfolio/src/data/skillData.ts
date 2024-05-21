@@ -31,6 +31,36 @@ const skillData: any = [
   },
   {
     image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
+    name: "SpringBoot",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+    name: "VueJS",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg",
+    name: "PostgreSQL",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg",
+    name: "Ruby",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rails/rails-plain-wordmark.svg",
+    name: "Ruby on Rails",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg",
+    name: "Django",
+  },
+  {
+    image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
     name: "NodeJS",
   },
