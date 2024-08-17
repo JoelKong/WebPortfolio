@@ -1,5 +1,23 @@
 const projectData: any = [
   {
+    image: "/personalagents.PNG",
+    skills: [
+      "Ai Agents",
+      "GPT Function Calling",
+      "GPT Vision",
+      "Whisper",
+      "Gmail API",
+      "Google Calendar API",
+      "Playwright",
+      "BeautifulSoup",
+    ],
+    title: "Personal Agents",
+    description:
+      "A team of AI agents that work together in assisting the user with his/her needs.",
+    github: "https://github.com/JoelKong/PersonalAgents",
+    link: "https://www.youtube.com/watch?v=l65S0ZVM9Io&feature=youtu.be",
+  },
+  {
     image: "/sgunidorms.png",
     skills: ["NextJS", "Firebase", "TailwindCSS", "NodeJS"],
     title: "SgUniDorms",
