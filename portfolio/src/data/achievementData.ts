@@ -1,5 +1,40 @@
 const achievementData = [
   {
+    title: "08/2024 - 09/2024",
+    cardTitle: "AWS Certified Solutions Architect - Associate, Singapore",
+    cardDetailedText: [
+      "Took on Stephane Maarek's Solutions Architect Associate course and took on TutorialDojo's mock exams.",
+      "Gained a lot of knowledge on developing better solutions and AWS cloud technologies'",
+      "Contents covered includes IAM, EC2, ELB, ASG, RDS, S3, Aurora, Elasticache, Route 53, Elastic Beanstalk, DynamoDB, CloudFormation, CloudFront, Global Accelerator, Lambda and many more",
+    ],
+    media: {
+      type: "IMAGE",
+      name: "SIT",
+      source: {
+        url: "/aws.png",
+      },
+    },
+  },
+  {
+    title: "2023 - Current",
+    cardTitle:
+      "Singapore Institute of Technology Bachelor of Engineering with Honours in Information and Communications Technology majoring in Software Engineering, Singapore",
+    cardDetailedText: [
+      "Currently a sophomore in the Singapore Institute of Technology",
+      "Received a certification for 'Google IT Automation with Python Specialization.'",
+      "Received a certification for 'Google Project Management.'",
+      "Student Helper Software Engineer and assisted to develop a live soft shell crab farming system for Aquast as a SPICE project.",
+      "Currently studying in preparation for the AWS Solutions Architect - Associate exam",
+    ],
+    media: {
+      type: "IMAGE",
+      name: "SIT",
+      source: {
+        url: "/SIT.png",
+      },
+    },
+  },
+  {
     title: "2018 - 2021",
     cardTitle:
       "Singapore Polytechnic Diploma in Financial Informatics, Singapore",
@@ -59,25 +94,6 @@ const achievementData = [
       name: "intuition",
       source: {
         url: "/intuition.png",
-      },
-    },
-  },
-  {
-    title: "2023 - Current",
-    cardTitle:
-      "Singapore Institute of Technology Bachelor of Engineering with Honours in Information and Communications Technology majoring in Software Engineering, Singapore",
-    cardDetailedText: [
-      "Currently a sophomore in the Singapore Institute of Technology",
-      "Received a certification for 'Google IT Automation with Python Specialization.'",
-      "Received a certification for 'Google Project Management.'",
-      "Student Helper Software Engineer and assisted to develop a live soft shell crab farming system for Aquast as a SPICE project.",
-      "Currently studying in preparation for the AWS Solutions Architect - Associate exam",
-    ],
-    media: {
-      type: "IMAGE",
-      name: "SIT",
-      source: {
-        url: "/SIT.png",
       },
     },
   },
