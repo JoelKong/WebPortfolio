@@ -71,14 +71,14 @@ export default function Introduction({ achievementData }: any): JSX.Element {
                   height={40}
                 />
               </Link>
-              <a
+              {/* <a
                 className="bg-[#01F53F] font-bold text-md pl-4 pr-4 pt-1 pb-1 rounded-lg hover:bg-green-500"
                 href="./JoelKongBoonWei_Resume.pdf"
                 download
                 target="_blank"
               >
                 View CV
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
