@@ -37,6 +37,50 @@ const skillData: any = {
     },
     {
       image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      name: "Docker",
+    },
+    {
+      image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+      name: "Jenkins",
+    },
+    {
+      image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg",
+      name: "PostgreSQL",
+    },
+    {
+      image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      name: "MongoDB",
+    },
+    {
+      image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+      name: "Firebase",
+    },
+    {
+      image: "/qdrant.png",
+      name: "Qdrant",
+    },
+    {
+      image: "/langchain.png",
+      name: "LangChain",
+    },
+    {
+      image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original-wordmark.svg",
+      name: "RabbitMQ",
+    },
+    {
+      image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg",
+      name: "Astro",
+    },
+
+    {
+      image:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
       name: "SpringBoot",
     },
@@ -44,11 +88,6 @@ const skillData: any = {
       image:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
       name: "VueJS",
-    },
-    {
-      image:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg",
-      name: "PostgreSQL",
     },
     {
       image:
@@ -67,18 +106,13 @@ const skillData: any = {
     },
     {
       image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg",
+      name: "Flask",
+    },
+    {
+      image:
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
       name: "NodeJS",
-    },
-    {
-      image:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-      name: "MongoDB",
-    },
-    {
-      image:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-      name: "Firebase",
     },
     {
       image: "/supabase.png",
@@ -123,16 +157,6 @@ const skillData: any = {
       image:
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
       name: "Linux",
-    },
-    {
-      image:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
-      name: "Jenkins",
-    },
-    {
-      image:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-      name: "Docker",
     },
     {
       image:
